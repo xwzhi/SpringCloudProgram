@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/SpringBootL/DesignPattern" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootL/PropertyProgram" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-Order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-Order/client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-Order/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-Order/server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-Product" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-Product/client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-Product/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-Product/server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-Server/Server1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-Server/Server2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-Server/Server3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringConfig-Config" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+    <script th:src="@{/js/jquery/jquery.min.js}"></script>
+    <script th:src="@{/js/bootstrap/bootstrap.min.js}"></script>
+</head>
+<body>
+<div>
+    <table class="table table-striped">
+        <tr>
+            <th>序号</th>
+            <th>类型</th>
+            <th>名字</th>
+            <th>商品类型</th>
+            <th>排序方式</th>
+            <th>未知</th>
+            <th>操作</th>
+        </tr>
+        <tr th:each="baseDict:${page.rows}">
+            <td th:text="${baseDict.dictId}" name="dictId"></td>
+            <td th:text="${baseDict.dictTypeCode}"></td>
+            <td th:text="${baseDict.dictTypeName}"></td>
+            <td th:text="${baseDict.dictItemName}"></td>
+            <td th:text="${baseDict.dictSort}==1?'升序':'降序'">未知</td>
+            <td th:text="${baseDict.dictEnable}"></td>
+            <td>
+                <a th:href="@{'/baseDist/toAdd'}">新增</a>
+                <a th:href="@{'/baseDist/toUpdate?dictId='+${baseDict.dictId}}">更新</a>
+                <a th:href="@{'/baseDist/delete?dictId='+${baseDict.dictId}+'&=currentPage'+${currentPage}}">删除</a>
+            </td>
+        </tr>
+        <tr style="text-align: center;">
+            <td colspan="6">
+                第<span th:text="${page.page}"></span>页 &nbsp;&nbsp;&nbsp;
+                共<span th:text="${page.pageNum}"></span>页&nbsp;&nbsp;&nbsp;
+                <span th:if="${page.page}<=1">
+                     <a href="javascrpit:void(0)">首页</a>&nbsp;
+                     <a href="javascrpit:void(0)">上一页</a>&nbsp;
+                 </span>
+                <span th:if="${page.page>1}">
+                     <a th:href="@{${page.url}}">首页</a>&nbsp;
+                     <a th:href="@{|${page.url}?page=${page.page-1}|}">上一页</a>&nbsp;
+                 </span>
+                <span th:each="index:${#numbers.sequence(page.startPage,page.endPage)}">
+                    <span th:if="${index != page.page}">
+                       <a th:href="@{|${page.url}?page=${index}|}" th:text="${index}"></a>&nbsp;
+                    </span>
+                    <span th:if="${index == page.page}">
+                       <span th:text="${index}"></span>&nbsp;
+                    </span>
+                </span>
+                <span th:if="${page.page<page.pageNum}">
+                     <a th:href="@{${page.url}+'?page='+${page.page+1}}">下一页</a>&nbsp;
+                     <a th:href="@{|${page.url}?page=${page.pageNum}|}">尾页</a>&nbsp;
+                 </span>
+                <span th:if="${page.page == page.pageNum}">
+                     <a href="javascrpit:void(0)">下一页</a>&nbsp;
+                     <a href="javascrpit:void(0)">尾页</a>&nbsp;
+                </span>
+                共<span th:text="${page.getTotal()}"></span>条记录
+            </td>
+        </tr>
+    </table>
+
+</div>
+</body>
+</html>

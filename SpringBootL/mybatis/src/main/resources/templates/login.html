@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Signin Template for Bootstrap</title>
+    <script type="text/javascript" th:src="@{/webjars/jquery/3.3.1-1/jquery.js}"></script>
+</head>
+<body class="text-center">
+<a th:href="@{/loginnum/get/1}">获取数据1</a>
+<a th:href="@{/loginnum/get/10}">获取数据3</a>
+<a th:href="@{/loginnum/get/11}">获取数据4</a>
+<a th:href="@{/loginnum/get/22}">获取数据5</a>
+<a th:href="@{/loginnum/get/11}">获取数据6</a>
+<a th:href="@{/loginnum/get/8}">获取数据7</a>
+<form id="formi" method="post">
+    <input name="_method" value="put" type="hidden">
+    <label>序号:</label>
+    <input type="text" name="id">
+    <label>部门:</label>
+    <input type="text" name="department">
+    <label>ip:</label>
+    <input type="text" name="ipAddress">
+    <label>总数:</label>
+    <input type="text" name="totalLoginNum">
+    <label>姓名:</label>
+    <input type="text" name="name">
+    <label>次数:</label>
+    <input type="text" name="number">
+    <p id="submit" th:attr="put_url=@{'/loginnum/update'}">提交</p>
+</form>
+<div style="margin-left: 30%;margin-top: auto;">
+    <label>查询</label>
+    <input type="text" id="value">
+    <input type="button" id="search" value="查询">
+    <input type="button" id="update" value="修改">
+    <div style="margin-left: -20%;margin-top: 10px;">
+        <form id="putForm" method="post">
+            <input type="hidden" name="_method" value="put">
+            <table>
+                <tr id="trData">
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    $("#submit").click(function () {
+        $("#formi").attr('action', $(this).attr('put_url')).submit();
+    })
+    $("#search").click(function () {
+        var id = $("#value").val();
+        $.ajax({
+            url: 'warehouse/get',
+            type: "get",
+            dateType: "json",
+            data: {
+                "id": id
+            },
+            success: function (data) {
+                $("#trData").text("");
+                var jsonData = JSON.parse(data);
+                $("#trData").append("");
+                $("#trData").append("<td><input name='id'value='" + jsonData.id + "'></td>");
+                $("#trData").append("<td><input name='name'value='" + jsonData.name + "'></td>");
+                $("#trData").append("<td><input name='address'value='" + jsonData.address + "'></td>");
+                $("#trData").append("<td><input name='number'value='" + jsonData.number + "'></td>");
+                $("#trData").append("<td><input name='shelves'value='" + jsonData.shelves + "'></td>");
+                $("#trData").append("<td><input name='zone'value='" + jsonData.zone + "'></td>");
+
+            }
+        })
+
+        $("#update").click(function () {
+            // $("#putForm").attr("action","warehouse/update").submit();
+            $.ajax({
+                url: "warehouse/update",
+                type: "post",
+                dateType: "json",
+                data: $("#putForm").serialize(),
+                success: function (data) {
+
+                }
+            });
+        })
+    })
+</script>
+
+</html>

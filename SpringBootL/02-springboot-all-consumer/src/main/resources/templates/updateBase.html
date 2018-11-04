@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+    <script th:src="@{/js/jquery/jquery.min.js}"></script>
+    <script th:src="@{/js/bootstrap/bootstrap.min.js}"></script>
+</head>
+<body style="margin-top: 40px;width: 700px ;height: 300px;margin-left: 150px ;">
+        <form th:method="post" th:action="@{'/baseDist/updateBase'}">
+            <div class="form-group">
+                <label>代码：</label>
+                <input type="text" id="dictTypeCode" name="dictTypeCode" class="form-control" th:value="${baseDict.dictTypeCode}" placeholder="代码输入">
+            </div>
+            <div class="form-group">
+                <label>名字：</label>
+                <input type="text" id="dictTypeName" name="dictTypeName" class="form-control" th:value="${baseDict.dictTypeName}" placeholder="名字输入">
+            </div>
+            <div class="form-group">
+                <label>数据类型：</label>
+                <input type="text" id="dictItemName" name="dictItemName" class="form-control" th:value="${baseDict.dictItemName}" placeholder="数据输入">
+            </div>
+            <div class="form-group">
+                <label>排序方式：</label>
+                <input type="text" id="dictSort" name="dictSort" class="form-control" th:value="${baseDict.dictSort}" placeholder="排序方式">
+            </div>
+            <div class="form-group">
+                <label>未知：</label>
+                <input type="text" id="dictEnable" name="dictEnable" class="form-control" th:value="${baseDict.dictEnable}" placeholder="未知">
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <input type="hidden" id="dictId" name="dictId" class="form-control" th:value="${baseDict.dictId}" />
+                    <button type="submit" class="btn btn-default">提交</button>
+                </div>
+            </div>
+        </form>
+</body>
+</html>
