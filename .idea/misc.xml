@@ -8,11 +8,13 @@
       <list>
         <option value="$PROJECT_DIR$/SpringBootL/PropertyProgram/pom.xml" />
         <option value="$PROJECT_DIR$/SpringConfig-Config/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud-Product/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud-Order/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloud-Server/Server3/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloud-Server/Server2/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloud-Server/Server1/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringCloud-Product/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringCloud-Order/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootL/SpringBootWeb/pom.xml" />
+        <option value="$PROJECT_DIR$/getaway/pom.xml" />
       </list>
     </option>
   </component>
