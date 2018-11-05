@@ -42,6 +42,13 @@ public class NavController {
 
     @GetMapping("/save")
     public void addNav() {
+         addNav1();
+         addNav2();
+         addNav3();
+         addNav4();
+    }
+
+    public void addNav1() {
         /*默认最新状态被激活*/
         Nav nav1 = new Nav("最新动态", "/newsHome", true);
         Set<NavItem> navItems = new HashSet<>();
@@ -59,9 +66,58 @@ public class NavController {
         navService.save(nav2);
     }
 
-
-    @GetMapping("/save2")
     public void addNav2() {
+        Set<ManageItem> items = new HashSet<>();
+        items.add(new ManageItem(ItemEnum.DETAILS.getCODE(), ItemEnum.DETAILS.getOPERATION()));
+        items.add(new ManageItem(ItemEnum.COMMIT.getCODE(), ItemEnum.COMMIT.getOPERATION()));
+        items.add(new ManageItem(ItemEnum.DELETE.getCODE(), ItemEnum.DELETE.getOPERATION()));
+        items.add(new ManageItem(ItemEnum.EXAMINEFAIL.getCODE(), ItemEnum.EXAMINEFAIL.getOPERATION()));
+        items.add(new ManageItem(ItemEnum.ENCLOSURE.getCODE(), ItemEnum.ENCLOSURE.getOPERATION()));
+        Set<ManageItem> items1 = new HashSet<>();
+        items1.add(new ManageItem(ItemEnum.DETAILS.getCODE(), ItemEnum.DETAILS.getOPERATION()));
+        items1.add(new ManageItem(ItemEnum.COMMIT.getCODE(), ItemEnum.COMMIT.getOPERATION()));
+        items1.add(new ManageItem(ItemEnum.DELETE.getCODE(), ItemEnum.DELETE.getOPERATION()));
+        items1.add(new ManageItem(ItemEnum.EXAMINEFAIL.getCODE(), ItemEnum.EXAMINEFAIL.getOPERATION()));
+        items1.add(new ManageItem(ItemEnum.ENCLOSURE.getCODE(), ItemEnum.ENCLOSURE.getOPERATION()));
+        Set<ManageItem> items2 = new HashSet<>();
+        items2.add(new ManageItem(ItemEnum.DETAILS.getCODE(), ItemEnum.DETAILS.getOPERATION()));
+        items2.add(new ManageItem(ItemEnum.COMMIT.getCODE(), ItemEnum.COMMIT.getOPERATION()));
+        items2.add(new ManageItem(ItemEnum.DELETE.getCODE(), ItemEnum.DELETE.getOPERATION()));
+        items2.add(new ManageItem(ItemEnum.EXAMINEFAIL.getCODE(), ItemEnum.EXAMINEFAIL.getOPERATION()));
+        items2.add(new ManageItem(ItemEnum.ENCLOSURE.getCODE(), ItemEnum.ENCLOSURE.getOPERATION()));
+        Set<ManageItem> items3 = new HashSet<>();
+        items3.add(new ManageItem(ItemEnum.DETAILS.getCODE(), ItemEnum.DETAILS.getOPERATION()));
+        items3.add(new ManageItem(ItemEnum.COMMIT.getCODE(), ItemEnum.COMMIT.getOPERATION()));
+        items3.add(new ManageItem(ItemEnum.DELETE.getCODE(), ItemEnum.DELETE.getOPERATION()));
+        items3.add(new ManageItem(ItemEnum.EXAMINEFAIL.getCODE(), ItemEnum.EXAMINEFAIL.getOPERATION()));
+        items3.add(new ManageItem(ItemEnum.ENCLOSURE.getCODE(), ItemEnum.ENCLOSURE.getOPERATION()));
+        Set<ManageItem> items4 = new HashSet<>();
+        items4.add(new ManageItem(ItemEnum.DETAILS.getCODE(), ItemEnum.DETAILS.getOPERATION()));
+        items4.add(new ManageItem(ItemEnum.COMMIT.getCODE(), ItemEnum.COMMIT.getOPERATION()));
+        items4.add(new ManageItem(ItemEnum.DELETE.getCODE(), ItemEnum.DELETE.getOPERATION()));
+        items4.add(new ManageItem(ItemEnum.EXAMINEFAIL.getCODE(), ItemEnum.EXAMINEFAIL.getOPERATION()));
+        items4.add(new ManageItem(ItemEnum.ENCLOSURE.getCODE(), ItemEnum.ENCLOSURE.getOPERATION()));
+        Set<ManageItem> items5 = new HashSet<>();
+        items.add(new ManageItem(ItemEnum.DETAILS.getCODE(), ItemEnum.DETAILS.getOPERATION()));
+        items5.add(new ManageItem(ItemEnum.COMMIT.getCODE(), ItemEnum.COMMIT.getOPERATION()));
+        items5.add(new ManageItem(ItemEnum.DELETE.getCODE(), ItemEnum.DELETE.getOPERATION()));
+        items5.add(new ManageItem(ItemEnum.EXAMINEFAIL.getCODE(), ItemEnum.EXAMINEFAIL.getOPERATION()));
+        items5.add(new ManageItem(ItemEnum.ENCLOSURE.getCODE(), ItemEnum.ENCLOSURE.getOPERATION()));
+        WorkStatus status = new WorkStatus("你好", ItemEnum.DELETE.getSTATUS(), new Date(), items);
+        WorkStatus status1 = new WorkStatus("Angular", ItemEnum.DELETE.getSTATUS(), new Date(), items1);
+        WorkStatus status2 = new WorkStatus("Nice", ItemEnum.DELETE.getSTATUS(), new Date(), items2);
+        WorkStatus status3 = new WorkStatus("Too", ItemEnum.DELETE.getSTATUS(), new Date(), items3);
+        WorkStatus status4 = new WorkStatus("Me", ItemEnum.DELETE.getSTATUS(), new Date(), items4);
+        WorkStatus status5 = new WorkStatus("You", ItemEnum.DELETE.getSTATUS(), new Date(), items5);
+        workStatusService.save(status);
+        workStatusService.save(status1);
+        workStatusService.save(status2);
+        workStatusService.save(status3);
+        workStatusService.save(status4);
+        workStatusService.save(status5);
+    }
+
+    public void addNav3() {
         /*默认最新状态被激活*/
         Nav nav1 = new Nav("公示公告", "/advice", true);
         Set<NavItem> navItems = new HashSet<>();
@@ -125,61 +181,9 @@ public class NavController {
         navService.save(nav9);
         navService.save(nav10);
         navService.save(nav11);
-
-        Set<ManageItem> items = new HashSet<>();
-        items.add(new ManageItem(ItemEnum.DETAILS.getCODE(), ItemEnum.DETAILS.getOPERATION()));
-        items.add(new ManageItem(ItemEnum.COMMIT.getCODE(), ItemEnum.COMMIT.getOPERATION()));
-        items.add(new ManageItem(ItemEnum.DELETE.getCODE(), ItemEnum.DELETE.getOPERATION()));
-        items.add(new ManageItem(ItemEnum.EXAMINEFAIL.getCODE(), ItemEnum.EXAMINEFAIL.getOPERATION()));
-        items.add(new ManageItem(ItemEnum.ENCLOSURE.getCODE(), ItemEnum.ENCLOSURE.getOPERATION()));
-        Set<ManageItem> items1 = new HashSet<>();
-        items1.add(new ManageItem(ItemEnum.DETAILS.getCODE(), ItemEnum.DETAILS.getOPERATION()));
-        items1.add(new ManageItem(ItemEnum.COMMIT.getCODE(), ItemEnum.COMMIT.getOPERATION()));
-        items1.add(new ManageItem(ItemEnum.DELETE.getCODE(), ItemEnum.DELETE.getOPERATION()));
-        items1.add(new ManageItem(ItemEnum.EXAMINEFAIL.getCODE(), ItemEnum.EXAMINEFAIL.getOPERATION()));
-        items1.add(new ManageItem(ItemEnum.ENCLOSURE.getCODE(), ItemEnum.ENCLOSURE.getOPERATION()));
-        Set<ManageItem> items2 = new HashSet<>();
-        items2.add(new ManageItem(ItemEnum.DETAILS.getCODE(), ItemEnum.DETAILS.getOPERATION()));
-        items2.add(new ManageItem(ItemEnum.COMMIT.getCODE(), ItemEnum.COMMIT.getOPERATION()));
-        items2.add(new ManageItem(ItemEnum.DELETE.getCODE(), ItemEnum.DELETE.getOPERATION()));
-        items2.add(new ManageItem(ItemEnum.EXAMINEFAIL.getCODE(), ItemEnum.EXAMINEFAIL.getOPERATION()));
-        items2.add(new ManageItem(ItemEnum.ENCLOSURE.getCODE(), ItemEnum.ENCLOSURE.getOPERATION()));
-        Set<ManageItem> items3 = new HashSet<>();
-        items3.add(new ManageItem(ItemEnum.DETAILS.getCODE(), ItemEnum.DETAILS.getOPERATION()));
-        items3.add(new ManageItem(ItemEnum.COMMIT.getCODE(), ItemEnum.COMMIT.getOPERATION()));
-        items3.add(new ManageItem(ItemEnum.DELETE.getCODE(), ItemEnum.DELETE.getOPERATION()));
-        items3.add(new ManageItem(ItemEnum.EXAMINEFAIL.getCODE(), ItemEnum.EXAMINEFAIL.getOPERATION()));
-        items3.add(new ManageItem(ItemEnum.ENCLOSURE.getCODE(), ItemEnum.ENCLOSURE.getOPERATION()));
-        Set<ManageItem> items4 = new HashSet<>();
-        items4.add(new ManageItem(ItemEnum.DETAILS.getCODE(), ItemEnum.DETAILS.getOPERATION()));
-        items4.add(new ManageItem(ItemEnum.COMMIT.getCODE(), ItemEnum.COMMIT.getOPERATION()));
-        items4.add(new ManageItem(ItemEnum.DELETE.getCODE(), ItemEnum.DELETE.getOPERATION()));
-        items4.add(new ManageItem(ItemEnum.EXAMINEFAIL.getCODE(), ItemEnum.EXAMINEFAIL.getOPERATION()));
-        items4.add(new ManageItem(ItemEnum.ENCLOSURE.getCODE(), ItemEnum.ENCLOSURE.getOPERATION()));
-        Set<ManageItem> items5 = new HashSet<>();
-        items.add(new ManageItem(ItemEnum.DETAILS.getCODE(), ItemEnum.DETAILS.getOPERATION()));
-        items5.add(new ManageItem(ItemEnum.COMMIT.getCODE(), ItemEnum.COMMIT.getOPERATION()));
-        items5.add(new ManageItem(ItemEnum.DELETE.getCODE(), ItemEnum.DELETE.getOPERATION()));
-        items5.add(new ManageItem(ItemEnum.EXAMINEFAIL.getCODE(), ItemEnum.EXAMINEFAIL.getOPERATION()));
-        items5.add(new ManageItem(ItemEnum.ENCLOSURE.getCODE(), ItemEnum.ENCLOSURE.getOPERATION()));
-        WorkStatus status = new WorkStatus("你好", ItemEnum.DELETE.getSTATUS(), new Date(), items);
-        WorkStatus status1 = new WorkStatus("Angular", ItemEnum.DELETE.getSTATUS(), new Date(), items1);
-        WorkStatus status2 = new WorkStatus("Nice", ItemEnum.DELETE.getSTATUS(), new Date(), items2);
-        WorkStatus status3 = new WorkStatus("Too", ItemEnum.DELETE.getSTATUS(), new Date(), items3);
-        WorkStatus status4 = new WorkStatus("Me", ItemEnum.DELETE.getSTATUS(), new Date(), items4);
-        WorkStatus status5 = new WorkStatus("You", ItemEnum.DELETE.getSTATUS(), new Date(), items5);
-        workStatusService.save(status);
-        workStatusService.save(status1);
-        workStatusService.save(status2);
-        workStatusService.save(status3);
-        workStatusService.save(status4);
-        workStatusService.save(status5);
-
-
     }
 
-    @GetMapping("/add")
-    public void add() {
+    public void addNav4() {
         Set<ManageItem> items = new HashSet<>();
         items.add(new ManageItem(ItemEnum.DETAILS.getCODE(), ItemEnum.DETAILS.getOPERATION()));
         items.add(new ManageItem(ItemEnum.COMMIT.getCODE(), ItemEnum.COMMIT.getOPERATION()));
