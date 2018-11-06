@@ -1,5 +1,6 @@
 package com.py.property.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import org.springframework.format.annotation.DateTimeFormat;
 
@@ -29,16 +30,20 @@ public class WorkStatus {
     @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date createTime;
 
-    @OneToMany(cascade = CascadeType.ALL,fetch =FetchType.EAGER)
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private Set<ManageItem> items;
+
+    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private WorkStatusDetail workStatusDetail;
 
     public WorkStatus() {
     }
 
-    public WorkStatus(String title, String message, Date createTime, Set<ManageItem> items) {
+    public WorkStatus(String title, String message, Date createTime, Set<ManageItem> items, WorkStatusDetail workStatusDetail) {
         this.title = title;
         this.message = message;
         this.createTime = createTime;
         this.items = items;
+        this.workStatusDetail = workStatusDetail;
     }
 }

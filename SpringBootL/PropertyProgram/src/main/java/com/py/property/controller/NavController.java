@@ -1,9 +1,6 @@
 package com.py.property.controller;
 
-import com.py.property.entity.ManageItem;
-import com.py.property.entity.Nav;
-import com.py.property.entity.NavItem;
-import com.py.property.entity.WorkStatus;
+import com.py.property.entity.*;
 import com.py.property.enums.ItemEnum;
 import com.py.property.service.NavService;
 import com.py.property.service.WorkStatusService;
@@ -42,10 +39,10 @@ public class NavController {
 
     @GetMapping("/save")
     public void addNav() {
-         addNav1();
-         addNav2();
-         addNav3();
-         addNav4();
+        addNav1();
+        addNav2();
+        addNav3();
+        //addNav4();
     }
 
     public void addNav1() {
@@ -103,12 +100,18 @@ public class NavController {
         items5.add(new ManageItem(ItemEnum.DELETE.getCODE(), ItemEnum.DELETE.getOPERATION()));
         items5.add(new ManageItem(ItemEnum.EXAMINEFAIL.getCODE(), ItemEnum.EXAMINEFAIL.getOPERATION()));
         items5.add(new ManageItem(ItemEnum.ENCLOSURE.getCODE(), ItemEnum.ENCLOSURE.getOPERATION()));
-        WorkStatus status = new WorkStatus("你好", ItemEnum.DELETE.getSTATUS(), new Date(), items);
-        WorkStatus status1 = new WorkStatus("Angular", ItemEnum.DELETE.getSTATUS(), new Date(), items1);
-        WorkStatus status2 = new WorkStatus("Nice", ItemEnum.DELETE.getSTATUS(), new Date(), items2);
-        WorkStatus status3 = new WorkStatus("Too", ItemEnum.DELETE.getSTATUS(), new Date(), items3);
-        WorkStatus status4 = new WorkStatus("Me", ItemEnum.DELETE.getSTATUS(), new Date(), items4);
-        WorkStatus status5 = new WorkStatus("You", ItemEnum.DELETE.getSTATUS(), new Date(), items5);
+        WorkStatus status = new WorkStatus("你好", ItemEnum.DELETE.getSTATUS(), new Date(), items,
+                new WorkStatusDetail("天1", "小区", "莫言", "moan", "图书", "我爱你", true, "sdfd", new Date(), new Date()));
+        WorkStatus status1 = new WorkStatus("Angular", ItemEnum.DELETE.getSTATUS(), new Date(), items1,
+                new WorkStatusDetail("天1", "小区", "莫言", "moan", "图书", "我爱你", true, "sdfd", new Date(), new Date()));
+        WorkStatus status2 = new WorkStatus("Nice", ItemEnum.DELETE.getSTATUS(), new Date(), items2,
+                new WorkStatusDetail("天1", "小区", "莫言", "moan", "图书", "我爱你", true, "sdfd", new Date(), new Date()));
+        WorkStatus status3 = new WorkStatus("Too", ItemEnum.DELETE.getSTATUS(), new Date(), items3,
+                new WorkStatusDetail("天1", "小区", "莫言", "moan", "图书", "我爱你", true, "sdfd", new Date(), new Date()));
+        WorkStatus status4 = new WorkStatus("Me", ItemEnum.DELETE.getSTATUS(), new Date(), items4,
+                new WorkStatusDetail("天1", "小区", "莫言", "moan", "图书", "我爱你", true, "sdfd", new Date(), new Date()));
+        WorkStatus status5 = new WorkStatus("You", ItemEnum.DELETE.getSTATUS(), new Date(), items5,
+                new WorkStatusDetail("天1", "小区", "莫言", "moan", "图书", "我爱你", true, "sdfd", new Date(), new Date()));
         workStatusService.save(status);
         workStatusService.save(status1);
         workStatusService.save(status2);
@@ -119,7 +122,7 @@ public class NavController {
 
     public void addNav3() {
         /*默认最新状态被激活*/
-        Nav nav1 = new Nav("公示公告", "/advice", true);
+        Nav nav1 = new Nav("公示公告", "/advice", false);
         Set<NavItem> navItems = new HashSet<>();
         navItems.add(new NavItem("公示公告", "/0"));
         nav1.setNavItems(navItems);
@@ -183,7 +186,7 @@ public class NavController {
         navService.save(nav11);
     }
 
-    public void addNav4() {
+   /* public void addNav4() {
         Set<ManageItem> items = new HashSet<>();
         items.add(new ManageItem(ItemEnum.DETAILS.getCODE(), ItemEnum.DETAILS.getOPERATION()));
         items.add(new ManageItem(ItemEnum.COMMIT.getCODE(), ItemEnum.COMMIT.getOPERATION()));
@@ -232,6 +235,6 @@ public class NavController {
         workStatusService.save(status3);
         workStatusService.save(status4);
         workStatusService.save(status5);
-    }
+    }*/
 }
 
