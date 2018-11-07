@@ -1,18 +1,16 @@
-package com.springcloud.product;
+package com.springcloud.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-import javax.transaction.Transactional;
-
 @SpringBootApplication
 @EnableEurekaClient
 @EnableTransactionManagement
-public class ProductApplication {
+public class UserApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ProductApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(UserApplication.class, args);
+    }
 }

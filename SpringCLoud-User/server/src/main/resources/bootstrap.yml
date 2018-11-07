@@ -1,0 +1,15 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: user
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: CONFIG
+      profile: dev
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:8791/eureka/,http://peer2:8792/eureka/,http://peer3:8793/eureka/

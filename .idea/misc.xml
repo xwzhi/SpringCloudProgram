@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/getaway/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootL/MybatisCommon/pom.xml" />
         <option value="$PROJECT_DIR$/User/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud-User/pom.xml" />
       </list>
     </option>
   </component>
