@@ -2,7 +2,10 @@ package com.springcloud.zuul;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
+import org.springframework.cloud.netflix.zuul.filters.ZuulProperties;
 
 // 通过路由的地址访问这个url
 // http://localhost:8089/product/product/list
@@ -14,4 +17,11 @@ public class GetawayApplication {
     public static void main(String[] args) {
         SpringApplication.run(GetawayApplication.class, args);
     }
+
+    @ConfigurationProperties("zuul")
+    @RefreshScope
+    public ZuulProperties ZuulProperties() {
+        return new ZuulProperties();
+    }
+
 }

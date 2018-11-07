@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringCLoud-User/SpringCloud-User.iml" filepath="$PROJECT_DIR$/SpringCLoud-User/SpringCloud-User.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Worklearn.iml" filepath="$PROJECT_DIR$/.idea/Worklearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringConfig-Config/config.iml" filepath="$PROJECT_DIR$/SpringConfig-Config/config.iml" />
       <module fileurl="file://$PROJECT_DIR$/getaway/getaway.iml" filepath="$PROJECT_DIR$/getaway/getaway.iml" />

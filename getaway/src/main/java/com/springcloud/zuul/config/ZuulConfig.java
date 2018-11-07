@@ -1,4 +1,4 @@
-package com.springcloud.zuul;
+package com.springcloud.zuul.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
@@ -12,13 +12,14 @@ import org.springframework.stereotype.Component;
  * @Date 2018-11-07 16:48 星期三 MySpringCloud
  * @VERSION 1.0.0
  **/
-@Component
+//@Component
 public class ZuulConfig {
 
-    @ConfigurationProperties("zuul")
+    /*动态刷新配置*/
+   /* @ConfigurationProperties("zuul")
     @RefreshScope
     public ZuulProperties ZuulProperties(){
         return  new ZuulProperties();
-    }
+    }*/
 
 }

@@ -20,6 +20,7 @@
         <module name="server1" />
         <module name="server2" />
         <module name="server3" />
+        <module name="SpringCloud-User" />
         <module name="web" />
       </profile>
     </annotationProcessing>
@@ -45,6 +46,7 @@
       <module name="server2" target="1.8" />
       <module name="server3" target="1.8" />
       <module name="SpringCloud-Config" target="1.8" />
+      <module name="SpringCloud-User" target="1.8" />
       <module name="web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
