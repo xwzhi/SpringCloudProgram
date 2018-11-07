@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="config" />
         <module name="getaway" />
+        <module name="mybatis" />
         <module name="order-client" />
         <module name="order-common" />
         <module name="order-server" />
@@ -25,8 +26,11 @@
     <bytecodeTargetLevel>
       <module name="api-getaway" target="1.8" />
       <module name="config" target="1.8" />
+      <module name="demo" target="1.8" />
       <module name="design" target="1.8" />
       <module name="getaway" target="1.8" />
+      <module name="mybatis" target="1.8" />
+      <module name="MybatisCommon" target="1.8" />
       <module name="order" target="1.8" />
       <module name="order-client" target="1.8" />
       <module name="order-common" target="1.8" />

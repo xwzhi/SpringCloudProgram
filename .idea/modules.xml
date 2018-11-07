@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Worklearn.iml" filepath="$PROJECT_DIR$/.idea/Worklearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringConfig-Config/config.iml" filepath="$PROJECT_DIR$/SpringConfig-Config/config.iml" />
       <module fileurl="file://$PROJECT_DIR$/getaway/getaway.iml" filepath="$PROJECT_DIR$/getaway/getaway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootL/MybatisCommon/mybatis.iml" filepath="$PROJECT_DIR$/SpringBootL/MybatisCommon/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Order/order.iml" filepath="$PROJECT_DIR$/SpringCloud-Order/order.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Order/client/order-client.iml" filepath="$PROJECT_DIR$/SpringCloud-Order/client/order-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Order/common/order-common.iml" filepath="$PROJECT_DIR$/SpringCloud-Order/common/order-common.iml" />

@@ -19,6 +19,7 @@ zuul:
     myProduct: #对应第一个product的地址
       path: /myProduct/**
       serviceId: PRODUCT
+      sensitiveHeaders: #不拦截cookies 默认设置三个Cookies 路由时排除会没有cookies
   #    排除某些路由
   ignored-patterns:
   - /*/product/listForOrder
