@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/SpringBootL/MybatisCommon/pom.xml" />
         <option value="$PROJECT_DIR$/User/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloud-User/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud-Common/pom.xml" />
       </list>
     </option>
   </component>

@@ -41,6 +41,7 @@ public class ProductController {
      * 4. 构造数据
      */
     @GetMapping("/list")
+    //@CrossOrigin(allowCredentials = "true")//允许cookie跨域 zuul中进行配置
     public ResultVO<ProductVO> list(HttpServletRequest request) {
         System.out.println(request.getCookies());
         //1. 查询所有在架的商品

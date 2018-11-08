@@ -25,7 +25,7 @@ import static org.springframework.cloud.netflix.zuul.filters.support.FilterConst
  * @VERSION 1.0.0
  **/
 @Component
-public class AuthFilter extends ZuulFilter {
+public class AuthBuyerFilter extends ZuulFilter {
 
     @Autowired
     private StringRedisTemplate redisTemplate;
@@ -46,9 +46,18 @@ public class AuthFilter extends ZuulFilter {
         return PRE_DECORATION_FILTER_ORDER - 1;
     }
 
+    /**
+     * 是否拦截
+     */
     @Override
     public boolean shouldFilter() {
-        return true;
+        RequestContext currentContext = RequestContext.getCurrentContext();
+        HttpServletRequest request = currentContext.getRequest();
+        /*返回true代表执行run方法，表示拦截*/
+        if ("/order/order/create".equals(request.getRequestURI())) {
+            return true;
+        }
+        return false;
     }
 
     /*
@@ -57,30 +66,18 @@ public class AuthFilter extends ZuulFilter {
     @Override
     public Object run() throws ZuulException {
         /*获取当前对象的上下文*/
-        //RequestContext currentContext = RequestContext.getCurrentContext();
-        //HttpServletRequest request = currentContext.getRequest();
-        //
-        ///*
-        //  /order/create 只能买家访问(Cookie有openid)
-        //  /order/finish 只能卖家访问(Cookie有token,并对应的redis)
-        //  /product/list 都可  访问
-        // */
-        //if ("/order/order/create".equals(request.getRequestURI())) {
-        //    Cookie cookie = CookieUtils.get(request, "openid");
-        //    if (cookie == null || StringUtils.isEmpty(cookie.getValue())) {
-        //        currentContext.setSendZuulResponse(false);
-        //        currentContext.setResponseStatusCode(HttpStatus.UNAUTHORIZED.value());
-        //    }
-        //}
-        //
-        //if("/order/order/finish".equals(request.getRequestURI())){
-        //    Cookie cookie = CookieUtils.get(request,"token");
-        //    if(cookie == null || StringUtils.isEmpty(cookie.getValue())||
-        //       StringUtils.isEmpty(redisTemplate.opsForValue().get(String.format(RedisConstant.TOKEN_TEMPLATE,cookie.getValue())))){
-        //        currentContext.setSendZuulResponse(false);
-        //        currentContext.setResponseStatusCode(HttpStatus.UNAUTHORIZED.value());
-        //    }
-        //}
+        RequestContext currentContext = RequestContext.getCurrentContext();
+        HttpServletRequest request = currentContext.getRequest();
+
+        /*
+          /order/create 只能买家访问(Cookie有openid)
+         */
+        Cookie cookie = CookieUtils.get(request, "openid");
+        if (cookie == null || StringUtils.isEmpty(cookie.getValue())) {
+            currentContext.setSendZuulResponse(false);
+            currentContext.setResponseStatusCode(HttpStatus.UNAUTHORIZED.value());
+        }
+
         return null;
     }
 

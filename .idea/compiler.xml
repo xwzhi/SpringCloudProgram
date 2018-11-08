@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="common" />
         <module name="config" />
         <module name="getaway" />
         <module name="mybatis" />
@@ -22,6 +23,7 @@
         <module name="server1" />
         <module name="server2" />
         <module name="server3" />
+        <module name="SpringCloud-Common" />
         <module name="springcloud-user" />
         <module name="user (1)" />
         <module name="user-client" />
@@ -32,6 +34,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-getaway" target="1.8" />
+      <module name="common" target="1.8" />
       <module name="config" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="design" target="1.8" />
@@ -53,6 +56,7 @@
       <module name="server1" target="1.8" />
       <module name="server2" target="1.8" />
       <module name="server3" target="1.8" />
+      <module name="SpringCloud-Common" target="1.8" />
       <module name="SpringCloud-Config" target="1.8" />
       <module name="SpringCloud-User" target="1.8" />
       <module name="springcloud-user" target="1.8" />

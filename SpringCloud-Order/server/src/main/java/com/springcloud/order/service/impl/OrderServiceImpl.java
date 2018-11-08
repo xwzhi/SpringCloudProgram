@@ -23,6 +23,7 @@ import javax.transaction.Transactional;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.Collection;
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -62,6 +63,7 @@ public class OrderServiceImpl implements OrderService {
             for (ProductInfoOutput productInfo : productInfoList) {
                 if (productInfo.getProductId().equals(orderDetail.getProductId())) {
                     //单价*数量
+                    orderDetail.setProductQuantity(2);
                     orderAmout = productInfo.getProductPrice()
                             .multiply(new BigDecimal(orderDetail.getProductQuantity()))
                             .add(orderAmout);
@@ -92,6 +94,8 @@ public class OrderServiceImpl implements OrderService {
         orderMaster.setOrderAmount(orderAmout);
         orderMaster.setOrderStatus(OrderStatusEnum.NEW.getCode());
         orderMaster.setPayStatus(PayStatusEnum.WAIT.getCode());
+        orderMaster.setCreateTime(new Date());
+        orderMaster.setUpdateTime(new Date());
         orderMasterRepository.save(orderMaster);
         return orderDTO;
     }

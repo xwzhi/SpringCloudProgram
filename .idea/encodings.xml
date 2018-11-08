@@ -5,6 +5,11 @@
     <file url="file://$PROJECT_DIR$/SpringBootL/MybatisCommon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootL/PropertyProgram" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootL/SpringBootWeb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCLoud-User" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCLoud-User/client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCLoud-User/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCLoud-User/server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-Common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-Order" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-Order/client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-Order/common" charset="UTF-8" />
@@ -20,7 +25,6 @@
     <file url="file://$PROJECT_DIR$/SpringCloud-User/client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-User/common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-User/server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SpringCloud-Users" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringConfig-Config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/getaway" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
