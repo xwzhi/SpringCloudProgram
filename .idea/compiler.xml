@@ -23,8 +23,10 @@
         <module name="server2" />
         <module name="server3" />
         <module name="springcloud-user" />
+        <module name="user (1)" />
         <module name="user-client" />
         <module name="user-common" />
+        <module name="user-server" />
         <module name="web" />
       </profile>
     </annotationProcessing>
@@ -55,8 +57,11 @@
       <module name="SpringCloud-User" target="1.8" />
       <module name="springcloud-user" target="1.8" />
       <module name="user" target="1.8" />
+      <module name="user (1)" target="1.8" />
+      <module name="user (1) (com.springcloud.user)" target="1.8" />
       <module name="user-client" target="1.8" />
       <module name="user-common" target="1.8" />
+      <module name="user-server" target="1.8" />
       <module name="web" target="1.8" />
     </bytecodeTargetLevel>
   </component>

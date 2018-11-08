@@ -14,6 +14,7 @@ import org.springframework.util.CollectionUtils;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
@@ -21,9 +22,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- *@Author XuWeiZhi
- *@Description
- *@Date 2018/10/10 11:29
+ * @Author XuWeiZhi
+ * @Description
+ * @Date 2018/10/10 11:29
  **/
 @RestController
 @RequestMapping("/order")
@@ -42,8 +43,8 @@ public class OrderController {
      */
     @PostMapping("/create")
     public ResultVO<Map<String, String>> create(@Valid OrderForm orderForm,
-                           BindingResult bindingResult) {
-        if (bindingResult.hasErrors()){
+                                                BindingResult bindingResult) {
+        if (bindingResult.hasErrors()) {
             log.error("【创建订单】参数不正确, orderForm={}", orderForm);
             throw new OrderException(ResultEnum.PARAM_ERROR.getCode(),
                     bindingResult.getFieldError().getDefaultMessage());
@@ -60,5 +61,10 @@ public class OrderController {
         Map<String, String> map = new HashMap<>();
         map.put("orderId", result.getOrderId());
         return ResultVOUtil.success(map);
+    }
+
+    @PostMapping("/finish")
+    public ResultVO<OrderDTO> finish(@RequestParam("orderId") String orderId) {
+        return ResultVOUtil.success(orderService.finish(orderId));
     }
 }
