@@ -31,7 +31,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-getaway" target="1.8" />
-      <module name="common" target="1.8" />
+      <module name="common" target="1.5" />
       <module name="config" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="design" target="1.8" />
