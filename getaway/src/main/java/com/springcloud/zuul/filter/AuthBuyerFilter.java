@@ -68,7 +68,7 @@ public class AuthBuyerFilter extends ZuulFilter {
         /*获取当前对象的上下文*/
         RequestContext currentContext = RequestContext.getCurrentContext();
         HttpServletRequest request = currentContext.getRequest();
-
+        System.out.println("xxx");
         /*
           /order/create 只能买家访问(Cookie有openid)
          */
