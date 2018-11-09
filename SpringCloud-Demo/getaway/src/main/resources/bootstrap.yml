@@ -1,0 +1,45 @@
+server:
+  port: 8089
+spring:
+  application:
+    name: getaway
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: CONFIG
+      profile: dev
+  redis:
+#    host: 192.168.86.21
+    host: 192.168.112.21
+    port: 6379
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:8791/eureka/,http://peer2:8792/eureka/,http://peer3:8793/eureka/
+# http://localhost:8089/product/product/list
+#zuul:
+#  routes:
+#    myProduct: #对应第一个product的地址
+#      path: /myProduct/**
+#      serviceId: PRODUCT
+#      sensitiveHeaders: #不拦截cookies 默认设置三个Cookies 路由时排除会没有cookies
+#  #    排除某些路由
+#  ignored-patterns:
+#  - /*/product/listForOrder
+##      http://localhost:8089/actuator/routes 查看路由的地址
+##    简介写法
+##     PRODUCT: /myProduct/**
+#
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
+#  security:
+#    enabled: false
+#
+#  host:
+#    connect-timeout-millis: 7000
+#    socket-timeout-millis: 7000

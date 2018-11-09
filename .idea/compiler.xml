@@ -10,7 +10,6 @@
         <module name="common" />
         <module name="config" />
         <module name="getaway" />
-        <module name="mybatis" />
         <module name="order-client" />
         <module name="order-client (1)" />
         <module name="order-common" />
@@ -19,7 +18,6 @@
         <module name="product-client" />
         <module name="product-common" />
         <module name="product-server" />
-        <module name="property" />
         <module name="server1" />
         <module name="server2" />
         <module name="server3" />
@@ -29,7 +27,6 @@
         <module name="user-client" />
         <module name="user-common" />
         <module name="user-server" />
-        <module name="web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
