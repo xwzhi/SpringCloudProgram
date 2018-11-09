@@ -15,8 +15,8 @@ spring:
         #获取配置中心注册的ID
         service-id: config
       #首先配置为Dev
-#      profile: yml
-      profile: com
+      profile: yml
+#      profile: com
     stream:
       bindings:
         # input 绑定通道 与接口中的通道相对应 解决多实例应用请求一个URL 造成所有的实例接收消息
@@ -58,3 +58,16 @@ hystrix:
           thread:
             #设置服务延时
             timeoutInMilliseconds: 3000
+ #Hystrix和Feign 服务端和客户端进行服务降级 hystrix定义在服务端
+feign:
+  hystrix:
+    enabled: true
+#Hystrix可視化监控 默认有上下文 http://localhost:8082/actuator/hystrix.stream
+management:
+  server:
+    servlet:
+      context-path: /
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream

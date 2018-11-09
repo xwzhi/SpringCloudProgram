@@ -8,8 +8,8 @@ spring:
       discovery:
         enabled: true
         service-id: CONFIG
-      profile: com
-#      profile: dev
+#      profile: com
+      profile: dev
 eureka:
   client:
     service-url:
