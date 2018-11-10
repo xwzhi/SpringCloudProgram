@@ -21,9 +21,9 @@
     <file url="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Server/Server1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Server/Server2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Server/Server3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Zipkin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-Demo/SpringConfig-Config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-Demo/getaway" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

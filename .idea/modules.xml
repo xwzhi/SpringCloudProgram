@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Zipkin/SpringCloud-Zipkin.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Zipkin/SpringCloud-Zipkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Worklearn.iml" filepath="$PROJECT_DIR$/.idea/Worklearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Common/common.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/SpringConfig-Config/config.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/SpringConfig-Config/config.iml" />

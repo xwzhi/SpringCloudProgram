@@ -31,6 +31,8 @@
         <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Product/server/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Product/common/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Common/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud-Zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Zipkin/pom.xml" />
       </list>
     </option>
   </component>

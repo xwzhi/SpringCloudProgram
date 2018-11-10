@@ -1,6 +1,13 @@
 server:
   port: 8082
 spring:
+  #  配置zipkin监视服务执行时间
+  zipkin:
+    base-url: http://192.168.86.21:9411/
+  sleuth:
+    sampler:
+      #设置检测服务发送数据 默认0.1 10%mk
+      probability: 1.0f
   application:
     name: order
   #开启消息跟踪
@@ -16,7 +23,7 @@ spring:
         service-id: config
       #首先配置为Dev
       profile: yml
-#      profile: com
+    #      profile: com
     stream:
       bindings:
         # input 绑定通道 与接口中的通道相对应 解决多实例应用请求一个URL 造成所有的实例接收消息
@@ -47,10 +54,10 @@ hystrix:
     #默认匹配所有带有 @HystrixCommand 方法的注解
     default:
       execution:
-       isolation:
-         thread:
-           #设置服务延时
-          timeoutInMilliseconds: 1000
+        isolation:
+          thread:
+            #设置服务延时
+            timeoutInMilliseconds: 1000
     #为方法单独设置一个超时时间
     getProductList:
       execution:
@@ -58,16 +65,19 @@ hystrix:
           thread:
             #设置服务延时
             timeoutInMilliseconds: 3000
- #Hystrix和Feign 服务端和客户端进行服务降级 hystrix定义在服务端
+  #Hystrix和Feign 服务端和客户端进行服务降级 hystrix定义在服务端
 feign:
   hystrix:
     enabled: true
 #Hystrix可視化监控 默认有上下文 http://localhost:8082/actuator/hystrix.stream
 management:
-  server:
-    servlet:
-      context-path: /
+#  server:
+#    servlet:
+#      context-path: /
   endpoints:
     web:
       exposure:
-        include: hystrix.stream
+        include: '*' #hystrix.stream 暴露所有页面，不受监视
+logging:
+  level:
+    org.springframework.cloud.openfeign: debug

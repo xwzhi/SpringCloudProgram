@@ -23,6 +23,7 @@
         <module name="server3" />
         <module name="SpringCloud-Common" />
         <module name="springcloud-user" />
+        <module name="SpringCloud-Zipkin" />
         <module name="user (1)" />
         <module name="user-client" />
         <module name="user-common" />
@@ -57,6 +58,7 @@
       <module name="SpringCloud-Config" target="1.8" />
       <module name="SpringCloud-User" target="1.8" />
       <module name="springcloud-user" target="1.8" />
+      <module name="SpringCloud-Zipkin" target="1.8" />
       <module name="user" target="1.8" />
       <module name="user (1)" target="1.8" />
       <module name="user (1) (com.springcloud.user)" target="1.8" />
