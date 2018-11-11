@@ -1,6 +1,18 @@
 server:
   port: 8081
 spring:
+  zipkin:
+    base-url: http://192.168.86.21:9411/
+    #    base-url: http://localhost:9411
+#    service:
+#      name: product
+  sleuth:
+    sampler:
+      #设置检测服务发送数据 默认0.1 10%mk
+      probability: 1.0
+#    http:
+#      legacy:
+#        enabled: true
   application:
     name: product
   cloud:
@@ -8,7 +20,7 @@ spring:
       discovery:
         enabled: true
         service-id: CONFIG
-#      profile: com
+      #      profile: com
       profile: dev
 eureka:
   client:

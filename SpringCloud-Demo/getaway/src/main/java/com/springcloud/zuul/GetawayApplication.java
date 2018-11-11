@@ -1,11 +1,13 @@
 package com.springcloud.zuul;
 
+import brave.sampler.Sampler;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.cloud.netflix.zuul.filters.ZuulProperties;
+import org.springframework.context.annotation.Bean;
 
 // 通过路由的地址访问这个url
 // http://localhost:8089/product/product/list
@@ -22,6 +24,11 @@ public class GetawayApplication {
     @RefreshScope
     public ZuulProperties ZuulProperties() {
         return new ZuulProperties();
+    }
+
+    @Bean
+    public Sampler defaultSampler() {
+        return Sampler.ALWAYS_SAMPLE;
     }
 
 }
