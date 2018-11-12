@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Zipkin/SpringCloud-Zipkin.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Zipkin/SpringCloud-Zipkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Worklearn.iml" filepath="$PROJECT_DIR$/.idea/Worklearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Common/common.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/SpringConfig-Config/config.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/SpringConfig-Config/config.iml" />
@@ -22,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCLoud-User/client/user-client.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/SpringCLoud-User/client/user-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCLoud-User/common/user-common.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/SpringCLoud-User/common/user-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCLoud-User/server/user-server.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/SpringCLoud-User/server/user-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Zipkin/zipkin.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Zipkin/zipkin.iml" />
     </modules>
   </component>
 </project>

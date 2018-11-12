@@ -28,6 +28,7 @@
         <module name="user-client" />
         <module name="user-common" />
         <module name="user-server" />
+        <module name="zipkin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -66,6 +67,7 @@
       <module name="user-common" target="1.8" />
       <module name="user-server" target="1.8" />
       <module name="web" target="1.8" />
+      <module name="zipkin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
