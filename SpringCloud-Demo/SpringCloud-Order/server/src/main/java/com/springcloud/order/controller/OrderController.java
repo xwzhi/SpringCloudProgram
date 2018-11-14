@@ -1,5 +1,7 @@
 package com.springcloud.order.controller;
 
+import com.netflix.hystrix.contrib.javanica.annotation.DefaultProperties;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.springcloud.order.VO.ResultVO;
 import com.springcloud.order.converter.OrderForm2OrderDTOConverter;
 import com.springcloud.order.dto.OrderDTO;
@@ -12,12 +14,11 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.CollectionUtils;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
 
 import javax.validation.Valid;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -28,6 +29,7 @@ import java.util.Map;
  **/
 @RestController
 @RequestMapping("/order")
+@DefaultProperties(defaultFallback = "defaultFallback")
 @Slf4j
 public class OrderController {
 
@@ -66,4 +68,47 @@ public class OrderController {
     public ResultVO<OrderDTO> finish(@RequestParam("orderId") String orderId) {
         return ResultVOUtil.success(orderService.finish(orderId));
     }
+
+    @HystrixCommand
+    @GetMapping("/getList")
+    public String getList(@RequestParam("number") Integer number) {
+        if (number % 2 == 0) {
+            return "success";
+        }
+        RestTemplate restTemplate = new RestTemplate();
+        return restTemplate.postForObject("http://127.0.0.1:8081/product/listForOrder", Arrays.asList("164103465734242707"), String.class);
+    }
+
+    @GetMapping("/index")
+    public String getIndex(){
+        return "Haha";
+    }
+    @GetMapping("/index3")
+    public String getIndex3(){
+        return "Haha";
+    }
+
+    @HystrixCommand
+    @GetMapping("/index2")
+    public String getIndex2(){
+        RestTemplate restTemplate = new RestTemplate();
+        restTemplate.postForObject("http://127.0.0.1:8081/product/listForOrder", Arrays.asList("164103465734242707"), String.class);
+        System.out.println("我进入方法了");
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return "Haha";
+    }
+
+    @GetMapping("/index1")
+    public String getIndex1(){
+        return "Haha";
+    }
+
+    public String defaultFallback() {
+        return "这是Hystrix默认的一个服务降级回调方法!适用于全局回调方法！";
+    }
+
 }

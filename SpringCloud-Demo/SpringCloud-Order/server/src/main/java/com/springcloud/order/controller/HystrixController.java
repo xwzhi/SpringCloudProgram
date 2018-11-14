@@ -28,11 +28,11 @@ public class HystrixController {
     //服务降级，方法体中服务服务出现问题，调用fallback 进行错误提示,可用于抛出异常
     //考虑更多的是时间的延迟，默认的延迟时间是一秒触发降级 HystrixCommandProperties default_executionTimeoutInMilliseconds 中
     //设置超时时间为3000ms 3s内服务不降级处理 配置文件也可配置
-    /*@HystrixCommand(fallbackMethod = "fallback", commandProperties = {
+    @HystrixCommand(fallbackMethod = "fallback", commandProperties = {
             @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "3000")
-    })*/
+    })
     //配置文件单独配置一个降级时间 commandKey 设置参数名称 默认方法名
-    @HystrixCommand
+    //@HystrixCommand
     @GetMapping("/getProductList")
     public String getProductList() {
         RestTemplate restTemplate = new RestTemplate();

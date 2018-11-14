@@ -3,7 +3,8 @@ server:
 spring:
   #  配置zipkin监视服务执行时间
   zipkin:
-    base-url: http://192.168.86.21:9411/
+#    base-url: http://192.168.86.21:9411/
+    base-url: http://192.168.112.21:9411/
     #    base-url: http://localhost:9411
     service:
       name: order
@@ -29,8 +30,8 @@ spring:
         #获取配置中心注册的ID
         service-id: config
       #首先配置为Dev
-      profile: yml
-    #      profile: com
+#      profile: yml
+      profile: com
     stream:
       bindings:
         # input 绑定通道 与接口中的通道相对应 解决多实例应用请求一个URL 造成所有的实例接收消息

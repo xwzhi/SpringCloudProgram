@@ -10,6 +10,7 @@
         <module name="common" />
         <module name="config" />
         <module name="getaway" />
+        <module name="mybatis" />
         <module name="order-client" />
         <module name="order-client (1)" />
         <module name="order-common" />
@@ -18,6 +19,7 @@
         <module name="product-client" />
         <module name="product-common" />
         <module name="product-server" />
+        <module name="property" />
         <module name="server1" />
         <module name="server2" />
         <module name="server3" />
@@ -69,5 +71,27 @@
       <module name="web" target="1.8" />
       <module name="zipkin" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="getaway" options="-parameters" />
+      <module name="mybatis" options="-parameters" />
+      <module name="order-client" options="-parameters" />
+      <module name="order-common" options="-parameters" />
+      <module name="order-server" options="-parameters" />
+      <module name="product-client" options="-parameters" />
+      <module name="product-common" options="-parameters" />
+      <module name="product-server" options="-parameters" />
+      <module name="property" options="-parameters" />
+      <module name="server1" options="-parameters" />
+      <module name="server2" options="-parameters" />
+      <module name="server3" options="-parameters" />
+      <module name="user-client" options="-parameters" />
+      <module name="user-common" options="-parameters" />
+      <module name="user-server" options="-parameters" />
+      <module name="zipkin" options="-parameters" />
+    </option>
   </component>
 </project>

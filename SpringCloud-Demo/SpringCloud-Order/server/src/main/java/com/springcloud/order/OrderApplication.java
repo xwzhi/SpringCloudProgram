@@ -3,6 +3,7 @@ package com.springcloud.order;
 import brave.sampler.Sampler;
 import org.springframework.boot.SpringApplication;
 import org.springframework.cloud.client.SpringCloudApplication;
+import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
@@ -17,7 +18,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @ComponentScan(basePackages = "com.springcloud") //product服务配置了组件，所以进行包扫描o
 @SpringCloudApplication  //@SpringBootApplication @EnableDiscoveryClient 客户端 @EnableCircuitBreaker Hystrix 启动注解
 @EnableHystrixDashboard  //hystrix可视化界面  http://localhost:8082/hystrix
-//@EnableHystrix
+@EnableHystrix
 //@EnableBinding(StreamInput.class)
 public class OrderApplication {
 

@@ -33,6 +33,8 @@
         <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Common/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloud-Zipkin/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-Demo/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-Demo/CreateTable/pom.xml" />
       </list>
     </option>
   </component>
