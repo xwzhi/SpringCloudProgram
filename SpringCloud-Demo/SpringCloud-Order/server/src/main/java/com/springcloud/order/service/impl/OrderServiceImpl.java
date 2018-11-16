@@ -110,7 +110,7 @@ public class OrderServiceImpl implements OrderService {
         }
         //2.判断订单状态
         OrderMaster master = orderMaster.get();
-        if (OrderStatusEnum.NEW.getCode() != master.getOrderStatus()) {
+        if (OrderStatusEnum.NEW.getCode().equals(master.getOrderStatus())) {
             throw new OrderException(ResultEnum.ORDER_STATUS_ERROR);
         }
         //3.修改订单状态为完结
