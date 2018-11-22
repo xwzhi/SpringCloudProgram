@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <option name="BUILD_PROCESS_HEAP_SIZE" value="1400" />
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -10,8 +11,9 @@
         <module name="common" />
         <module name="config" />
         <module name="getaway" />
-        <module name="mybatis" />
+        <module name="mybati" />
         <module name="mybatis (1) (com.java)" />
+        <module name="mybatisc" />
         <module name="order-client" />
         <module name="order-client (1)" />
         <module name="order-common" />
@@ -44,9 +46,10 @@
       <module name="demo" target="1.8" />
       <module name="design" target="1.8" />
       <module name="getaway" target="1.8" />
-      <module name="mybatis" target="1.8" />
+      <module name="mybati" target="1.8" />
       <module name="mybatis (1) (com.java)" target="1.8" />
       <module name="mybatis-plus-sample-generator" target="1.8" />
+      <module name="mybatisc" target="1.8" />
       <module name="MybatisCommon" target="1.8" />
       <module name="order" target="1.8" />
       <module name="order-client" target="1.8" />
@@ -86,9 +89,10 @@
       <module name="common" options="-parameters" />
       <module name="config" options="-parameters" />
       <module name="getaway" options="-parameters" />
-      <module name="mybatis" options="-parameters" />
+      <module name="mybati" options="-parameters" />
       <module name="mybatis (1) (com.java)" options="-parameters" />
       <module name="mybatis-plus-sample-generator" options="-parameters" />
+      <module name="mybatisc" options="-parameters" />
       <module name="order-client" options="-parameters" />
       <module name="order-common" options="-parameters" />
       <module name="order-server" options="-parameters" />

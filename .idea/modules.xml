@@ -6,8 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Common/common.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/SpringConfig-Config/config.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/SpringConfig-Config/config.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/getaway/getaway.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/getaway/getaway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringBoot-Demo/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/SpringBoot-Demo/mybatis/mybatis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringBoot-Demo/MybatisCommon/mybatis (1) (com.java).iml" filepath="$PROJECT_DIR$/SpringBoot-Demo/MybatisCommon/mybatis (1) (com.java).iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-Demo/mybatis/mybati.iml" filepath="$PROJECT_DIR$/SpringBoot-Demo/mybatis/mybati.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-Demo/MybatisCommon/mybatisc.iml" filepath="$PROJECT_DIR$/SpringBoot-Demo/MybatisCommon/mybatisc.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Order/order.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Order/order.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Order/client/order-client.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Order/client/order-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Order/common/order-common.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Order/common/order-common.iml" />
