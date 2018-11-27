@@ -6,8 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Common/common.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/SpringConfig-Config/config.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/SpringConfig-Config/config.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/getaway/getaway.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/getaway/getaway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringBoot-Demo/mybatis/mybati.iml" filepath="$PROJECT_DIR$/SpringBoot-Demo/mybatis/mybati.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringBoot-Demo/MybatisCommon/mybatisc.iml" filepath="$PROJECT_DIR$/SpringBoot-Demo/MybatisCommon/mybatisc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-Demo/mybatis/mybatis-base.iml" filepath="$PROJECT_DIR$/SpringBoot-Demo/mybatis/mybatis-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-Demo/MybatisCommon/mybatis-common.iml" filepath="$PROJECT_DIR$/SpringBoot-Demo/MybatisCommon/mybatis-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Order/order.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Order/order.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Order/client/order-client.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Order/client/order-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Order/common/order-common.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Order/common/order-common.iml" />
@@ -27,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/MyGraduationProgram/web.iml" filepath="$PROJECT_DIR$/MyGraduationProgram/web.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyGraduationProgram/web-create/web-create.iml" filepath="$PROJECT_DIR$/MyGraduationProgram/web-create/web-create.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyGraduationProgram/web-generator/web-generator.iml" filepath="$PROJECT_DIR$/MyGraduationProgram/web-generator/web-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyGraduationProgram/web-mobile/web-mobile.iml" filepath="$PROJECT_DIR$/MyGraduationProgram/web-mobile/web-mobile.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyGraduationProgram/web-program/web-program.iml" filepath="$PROJECT_DIR$/MyGraduationProgram/web-program/web-program.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Zipkin/zipkin.iml" filepath="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Zipkin/zipkin.iml" />
     </modules>

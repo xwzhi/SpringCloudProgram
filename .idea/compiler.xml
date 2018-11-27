@@ -13,6 +13,8 @@
         <module name="getaway" />
         <module name="mybati" />
         <module name="mybatis (1) (com.java)" />
+        <module name="mybatis-base" />
+        <module name="mybatis-common" />
         <module name="mybatisc" />
         <module name="order-client" />
         <module name="order-client (1)" />
@@ -35,6 +37,7 @@
         <module name="user-server" />
         <module name="web-create" />
         <module name="web-generator" />
+        <module name="web-mobile" />
         <module name="web-program" />
         <module name="zipkin" />
       </profile>
@@ -48,6 +51,8 @@
       <module name="getaway" target="1.8" />
       <module name="mybati" target="1.8" />
       <module name="mybatis (1) (com.java)" target="1.8" />
+      <module name="mybatis-base" target="1.8" />
+      <module name="mybatis-common" target="1.8" />
       <module name="mybatis-plus-sample-generator" target="1.8" />
       <module name="mybatisc" target="1.8" />
       <module name="MybatisCommon" target="1.8" />
@@ -80,6 +85,7 @@
       <module name="web" target="11" />
       <module name="web-create" target="11" />
       <module name="web-generator" target="11" />
+      <module name="web-mobile" target="11" />
       <module name="web-program" target="11" />
       <module name="zipkin" target="1.8" />
     </bytecodeTargetLevel>
@@ -91,6 +97,8 @@
       <module name="getaway" options="-parameters" />
       <module name="mybati" options="-parameters" />
       <module name="mybatis (1) (com.java)" options="-parameters" />
+      <module name="mybatis-base" options="-parameters" />
+      <module name="mybatis-common" options="-parameters" />
       <module name="mybatis-plus-sample-generator" options="-parameters" />
       <module name="mybatisc" options="-parameters" />
       <module name="order-client" options="-parameters" />
@@ -108,6 +116,7 @@
       <module name="user-server" options="-parameters" />
       <module name="web-create" options="-parameters" />
       <module name="web-generator" options="-parameters" />
+      <module name="web-mobile" options="-parameters" />
       <module name="web-program" options="-parameters" />
       <module name="zipkin" options="-parameters" />
     </option>

@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/../MyGraduationProgram" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../MyGraduationProgram/web-create" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../MyGraduationProgram/web-generator" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../MyGraduationProgram/web-program" charset="UTF-8" />
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/MyGraduationProgram" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyGraduationProgram/web-create" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyGraduationProgram/web-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MyGraduationProgram/web-mobile" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyGraduationProgram/web-program" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-Demo/CreateTable" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-Demo/DesignPattern" charset="UTF-8" />

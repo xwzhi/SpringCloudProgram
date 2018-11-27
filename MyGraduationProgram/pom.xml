@@ -10,6 +10,7 @@
         <module>web-program</module>
         <module>web-generator</module>
         <module>web-create</module>
+        <module>web-mobile</module>
     </modules>
     <packaging>pom</packaging>
 
