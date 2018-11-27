@@ -82,11 +82,11 @@
       <module name="user-client" target="1.8" />
       <module name="user-common" target="1.8" />
       <module name="user-server" target="1.8" />
-      <module name="web" target="11" />
-      <module name="web-create" target="11" />
-      <module name="web-generator" target="11" />
-      <module name="web-mobile" target="11" />
-      <module name="web-program" target="11" />
+      <module name="web" target="1.8" />
+      <module name="web-create" target="1.8" />
+      <module name="web-generator" target="1.8" />
+      <module name="web-mobile" target="1.8" />
+      <module name="web-program" target="1.8" />
       <module name="zipkin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
