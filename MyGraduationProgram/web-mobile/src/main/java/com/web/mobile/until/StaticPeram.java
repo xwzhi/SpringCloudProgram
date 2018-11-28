@@ -44,6 +44,6 @@ public class StaticPeram {
      * 必填:短信模板-可在短信控制台中找到
      * 阿里云配置你自己的短信模板填入
      */
-    final static String TEMPLATE_CODE = "SMS_151835412";
+    final static String TEMPLATE_CODE = "SMS_151925116";
 
 }
