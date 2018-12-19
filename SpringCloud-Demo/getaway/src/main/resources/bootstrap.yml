@@ -3,7 +3,7 @@ server:
 spring:
   zipkin:
     #    base-url: http://192.168.86.21:9411/
-    base-url: http://192.168.112.21:9411/
+    base-url: http://192.168.83.21:9411/
       #    base-url: http://localhost:9411
     service:
       name: getaway-client
@@ -23,7 +23,7 @@ spring:
       profile: dev
   redis:
     #    host: 192.168.86.21
-    host: 192.168.112.21
+    host: 192.168.83.21
     port: 6379
 
 eureka:
