@@ -24,7 +24,6 @@
         <module name="product-client" />
         <module name="product-common" />
         <module name="product-server" />
-        <module name="property" />
         <module name="server1" />
         <module name="server2" />
         <module name="server3" />
@@ -35,10 +34,6 @@
         <module name="user-client" />
         <module name="user-common" />
         <module name="user-server" />
-        <module name="web-create" />
-        <module name="web-generator" />
-        <module name="web-mobile" />
-        <module name="web-program" />
         <module name="zipkin" />
       </profile>
     </annotationProcessing>
@@ -50,6 +45,7 @@
       <module name="design" target="1.8" />
       <module name="getaway" target="1.8" />
       <module name="mybati" target="1.8" />
+      <module name="mybatis" target="1.8" />
       <module name="mybatis (1) (com.java)" target="1.8" />
       <module name="mybatis-base" target="1.8" />
       <module name="mybatis-common" target="1.8" />
@@ -92,10 +88,12 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MybatisCommon" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="config" options="-parameters" />
       <module name="getaway" options="-parameters" />
       <module name="mybati" options="-parameters" />
+      <module name="mybatis" options="-parameters" />
       <module name="mybatis (1) (com.java)" options="-parameters" />
       <module name="mybatis-base" options="-parameters" />
       <module name="mybatis-common" options="-parameters" />

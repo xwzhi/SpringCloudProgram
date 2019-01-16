@@ -19,24 +19,17 @@
         <option value="$PROJECT_DIR$/User/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloud-User/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloud-Common/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringCloud-Demo/getaway/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Order/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Server/Server1/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringConfig-Config/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud-Zipkin/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Server/Server3/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Server/Server2/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Server/Server1/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringConfig-Config/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCLoud-User/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Product/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Product/client/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Product/server/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Product/common/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Common/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringCloud-Zipkin/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Zipkin/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringBoot-Demo/mybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringBoot-Demo/CreateTable/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringBoot-Demo/MybatisCommon/pom.xml" />
-        <option value="$PROJECT_DIR$/MyGraduationProgram/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Order/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Product/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud-Demo/getaway/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Common/pom.xml" />
       </list>
     </option>
   </component>
