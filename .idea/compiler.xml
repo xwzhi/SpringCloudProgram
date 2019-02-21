@@ -10,12 +10,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
         <module name="config" />
+        <module name="CreateTable" />
         <module name="getaway" />
         <module name="mybati" />
+        <module name="mybatis" />
         <module name="mybatis (1) (com.java)" />
         <module name="mybatis-base" />
         <module name="mybatis-common" />
         <module name="mybatisc" />
+        <module name="MybatisCommon" />
         <module name="order-client" />
         <module name="order-client (1)" />
         <module name="order-common" />
@@ -24,7 +27,6 @@
         <module name="product-client" />
         <module name="product-common" />
         <module name="product-server" />
-        <module name="property" />
         <module name="server1" />
         <module name="server2" />
         <module name="server3" />
@@ -46,16 +48,19 @@
       <module name="api-getaway" target="1.8" />
       <module name="common" target="1.8" />
       <module name="config" target="1.8" />
+      <module name="CreateTable" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="design" target="1.8" />
       <module name="getaway" target="1.8" />
       <module name="mybati" target="1.8" />
+      <module name="mybatis" target="1.8" />
       <module name="mybatis (1) (com.java)" target="1.8" />
       <module name="mybatis-base" target="1.8" />
       <module name="mybatis-common" target="1.8" />
       <module name="mybatis-plus-sample-generator" target="1.8" />
       <module name="mybatisc" target="1.8" />
       <module name="MybatisCommon" target="1.8" />
+      <module name="MyGraduationProgram" target="1.8" />
       <module name="order" target="1.8" />
       <module name="order-client" target="1.8" />
       <module name="order-client (1)" target="1.8" />
@@ -67,7 +72,6 @@
       <module name="product-client" target="1.8" />
       <module name="product-common" target="1.8" />
       <module name="product-server" target="1.8" />
-      <module name="property" target="1.8" />
       <module name="server1" target="1.8" />
       <module name="server2" target="1.8" />
       <module name="server3" target="1.8" />
@@ -82,7 +86,6 @@
       <module name="user-client" target="1.8" />
       <module name="user-common" target="1.8" />
       <module name="user-server" target="1.8" />
-      <module name="web" target="1.8" />
       <module name="web-create" target="1.8" />
       <module name="web-generator" target="1.8" />
       <module name="web-mobile" target="1.8" />
@@ -92,10 +95,13 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CreateTable" options="-parameters" />
+      <module name="MybatisCommon" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="config" options="-parameters" />
       <module name="getaway" options="-parameters" />
       <module name="mybati" options="-parameters" />
+      <module name="mybatis" options="-parameters" />
       <module name="mybatis (1) (com.java)" options="-parameters" />
       <module name="mybatis-base" options="-parameters" />
       <module name="mybatis-common" options="-parameters" />
@@ -107,7 +113,6 @@
       <module name="product-client" options="-parameters" />
       <module name="product-common" options="-parameters" />
       <module name="product-server" options="-parameters" />
-      <module name="property" options="-parameters" />
       <module name="server1" options="-parameters" />
       <module name="server2" options="-parameters" />
       <module name="server3" options="-parameters" />
