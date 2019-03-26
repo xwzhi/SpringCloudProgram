@@ -1,26 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60d5e248-780c-46cb-84a8-76d11c387eed" name="Default Changelist" comment="init">
-      <change beforePath="$PROJECT_DIR$/.idea/SpringCloudProgram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SpringCloudProgram.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="60d5e248-780c-46cb-84a8-76d11c387eed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-Demo/CreateTable/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-Demo/CreateTable/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-Demo/MybatisCommon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-Demo/MybatisCommon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-Demo/SpringBootWeb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-Demo/SpringBootWeb/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-Demo/mybatis-plus-sample-generator/mybatis-plus-sample-generator.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-Demo/mybatis-plus-sample-generator/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-Demo/mybatis-plus-sample-generator/src/main/java/com/mybatis/generator/MysqlGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-Demo/mybatis-plus-sample-generator/src/main/java/com/mybatis/generator/MysqlGeneratorPlus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-Demo/mybatis-plus-sample-generator/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-Demo/mybatis-plus-sample-generator/src/main/resources/mapper/UserController/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-Demo/mybatis-plus-sample-generator/src/main/resources/mapper/web/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-Demo/mybatis-plus-sample-generator/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-Demo/mybatis-plus-sample-generator/target/classes/mapper/UserController/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Common/common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Common/common.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/SpringCloud-Demo/SpringCLoud-User/target/" />
     <ignored path="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Common/target/" />
@@ -306,24 +288,7 @@
             <path>
               <item name="SpringCloudProgram" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloudProgram" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot-Demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudProgram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudProgram" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot-Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudProgram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudProgram" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot-Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBootWeb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudProgram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudProgram" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloud-Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="MyGraduationProgram" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -338,7 +303,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553586963081" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553587005030" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringBoot-Demo/SpringBootWeb/pom.xml" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Zipkin/src/main/main7.iml" />
   </component>
@@ -502,7 +467,7 @@
       <workItem from="1552369329804" duration="4225000" />
       <workItem from="1552440831710" duration="1710000" />
       <workItem from="1553245827618" duration="114000" />
-      <workItem from="1553585841644" duration="1071000" />
+      <workItem from="1553585841644" duration="1206000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1550719038637</created>
@@ -511,15 +476,21 @@
       <option name="project" value="LOCAL" />
       <updated>1550719038637</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1553586997939</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553586997939</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12619000" />
+    <option name="totallyTimeSpent" value="12754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="JRebel" order="0" side_tool="true" />
       <window_info id="Image Layers" order="1" />
