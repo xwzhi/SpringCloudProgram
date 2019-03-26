@@ -30,7 +30,9 @@
         <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCLoud-User/server/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Product/server/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Common/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-Demo/SpringBootWeb/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

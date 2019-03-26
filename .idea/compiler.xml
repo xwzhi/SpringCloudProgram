@@ -14,10 +14,13 @@
         <module name="getaway" />
         <module name="mybati" />
         <module name="mybatis" />
+        <module name="mybatis (1) (com.hdo)" />
         <module name="mybatis (1) (com.java)" />
+        <module name="mybatis (2) (com.java)" />
         <module name="mybatis-base" />
         <module name="mybatis-common" />
         <module name="mybatisc" />
+        <module name="mybatiscommon" />
         <module name="MybatisCommon" />
         <module name="order-client" />
         <module name="order-client (1)" />
@@ -27,9 +30,11 @@
         <module name="product-client" />
         <module name="product-common" />
         <module name="product-server" />
+        <module name="property" />
         <module name="server1" />
         <module name="server2" />
         <module name="server3" />
+        <module name="SpringBootWeb" />
         <module name="SpringCloud-Common" />
         <module name="springcloud-user" />
         <module name="SpringCloud-Zipkin" />
@@ -37,6 +42,7 @@
         <module name="user-client" />
         <module name="user-common" />
         <module name="user-server" />
+        <module name="web (1) (com.hdo)" />
         <module name="web-create" />
         <module name="web-generator" />
         <module name="web-mobile" />
@@ -54,12 +60,15 @@
       <module name="getaway" target="1.8" />
       <module name="mybati" target="1.8" />
       <module name="mybatis" target="1.8" />
+      <module name="mybatis (1) (com.hdo)" target="1.8" />
       <module name="mybatis (1) (com.java)" target="1.8" />
+      <module name="mybatis (2) (com.java)" target="1.8" />
       <module name="mybatis-base" target="1.8" />
       <module name="mybatis-common" target="1.8" />
       <module name="mybatis-plus-sample-generator" target="1.8" />
       <module name="mybatisc" target="1.8" />
       <module name="MybatisCommon" target="1.8" />
+      <module name="mybatiscommon" target="1.8" />
       <module name="MyGraduationProgram" target="1.8" />
       <module name="order" target="1.8" />
       <module name="order-client" target="1.8" />
@@ -72,9 +81,11 @@
       <module name="product-client" target="1.8" />
       <module name="product-common" target="1.8" />
       <module name="product-server" target="1.8" />
+      <module name="property" target="1.8" />
       <module name="server1" target="1.8" />
       <module name="server2" target="1.8" />
       <module name="server3" target="1.8" />
+      <module name="SpringBootWeb" target="1.8" />
       <module name="SpringCloud-Common" target="1.8" />
       <module name="SpringCloud-Config" target="1.8" />
       <module name="SpringCloud-User" target="1.8" />
@@ -86,6 +97,8 @@
       <module name="user-client" target="1.8" />
       <module name="user-common" target="1.8" />
       <module name="user-server" target="1.8" />
+      <module name="web" target="1.8" />
+      <module name="web (1) (com.hdo)" target="1.8" />
       <module name="web-create" target="1.8" />
       <module name="web-generator" target="1.8" />
       <module name="web-mobile" target="1.8" />
@@ -97,28 +110,34 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="CreateTable" options="-parameters" />
       <module name="MybatisCommon" options="-parameters" />
+      <module name="SpringBootWeb" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="config" options="-parameters" />
       <module name="getaway" options="-parameters" />
       <module name="mybati" options="-parameters" />
       <module name="mybatis" options="-parameters" />
+      <module name="mybatis (1) (com.hdo)" options="-parameters" />
       <module name="mybatis (1) (com.java)" options="-parameters" />
+      <module name="mybatis (2) (com.java)" options="-parameters" />
       <module name="mybatis-base" options="-parameters" />
       <module name="mybatis-common" options="-parameters" />
       <module name="mybatis-plus-sample-generator" options="-parameters" />
       <module name="mybatisc" options="-parameters" />
+      <module name="mybatiscommon" options="-parameters" />
       <module name="order-client" options="-parameters" />
       <module name="order-common" options="-parameters" />
       <module name="order-server" options="-parameters" />
       <module name="product-client" options="-parameters" />
       <module name="product-common" options="-parameters" />
       <module name="product-server" options="-parameters" />
+      <module name="property" options="-parameters" />
       <module name="server1" options="-parameters" />
       <module name="server2" options="-parameters" />
       <module name="server3" options="-parameters" />
       <module name="user-client" options="-parameters" />
       <module name="user-common" options="-parameters" />
       <module name="user-server" options="-parameters" />
+      <module name="web (1) (com.hdo)" options="-parameters" />
       <module name="web-create" options="-parameters" />
       <module name="web-generator" options="-parameters" />
       <module name="web-mobile" options="-parameters" />

@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.hdo</groupId>
-    <artifactId>web</artifactId>
+    <artifactId>SpringBootWeb</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>web</name>
+    <name>SpringBootWeb</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
