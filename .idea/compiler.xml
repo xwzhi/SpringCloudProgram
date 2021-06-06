@@ -8,58 +8,58 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="common" />
-        <module name="config" />
-        <module name="CreateTable" />
-        <module name="getaway" />
-        <module name="mybati" />
-        <module name="mybatis" />
-        <module name="mybatis (1) (com.hdo)" />
-        <module name="mybatis (1) (com.java)" />
-        <module name="mybatis (2) (com.java)" />
-        <module name="mybatis-base" />
-        <module name="mybatis-common" />
-        <module name="mybatisc" />
-        <module name="mybatiscommon" />
-        <module name="MybatisCommon" />
-        <module name="order-client" />
-        <module name="order-client (1)" />
         <module name="order-common" />
-        <module name="order-common (1)" />
-        <module name="order-server" />
-        <module name="product-client" />
-        <module name="product-common" />
-        <module name="product-server" />
-        <module name="property" />
-        <module name="server1" />
-        <module name="server2" />
-        <module name="server3" />
-        <module name="SpringBootWeb" />
-        <module name="SpringCloud-Common" />
-        <module name="springcloud-user" />
-        <module name="SpringCloud-Zipkin" />
-        <module name="user (1)" />
-        <module name="user-client" />
-        <module name="user-common" />
         <module name="user-server" />
+        <module name="mybatis" />
+        <module name="CreateTable" />
+        <module name="mybatisc" />
         <module name="web (1) (com.hdo)" />
-        <module name="web-create" />
-        <module name="web-generator" />
-        <module name="web-mobile" />
+        <module name="server2" />
+        <module name="product-common" />
+        <module name="server1" />
+        <module name="mybatis (1) (com.hdo)" />
+        <module name="SpringCloud-Common" />
+        <module name="getaway" />
+        <module name="MybatisCommon" />
+        <module name="server3" />
+        <module name="common" />
         <module name="web-program" />
+        <module name="web-generator" />
+        <module name="mybatiscommon" />
+        <module name="SpringBootWeb" />
+        <module name="mybatis-common" />
+        <module name="property" />
+        <module name="user-client" />
+        <module name="mybatis (2) (com.java)" />
+        <module name="web-create" />
+        <module name="web-mobile" />
+        <module name="mybatis (1) (com.java)" />
         <module name="zipkin" />
+        <module name="springcloud-user" />
+        <module name="mybatis-base" />
+        <module name="product-server" />
+        <module name="order-server" />
+        <module name="user-common" />
+        <module name="user (1)" />
+        <module name="product-client" />
+        <module name="order-common (1)" />
+        <module name="order-client" />
+        <module name="mybati" />
+        <module name="config" />
+        <module name="order-client (1)" />
+        <module name="SpringCloud-Zipkin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-getaway" target="1.8" />
-      <module name="common" target="1.8" />
-      <module name="config" target="1.8" />
+      <module name="common" target="1.5" />
+      <module name="config" target="1.5" />
       <module name="CreateTable" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="design" target="1.8" />
-      <module name="getaway" target="1.8" />
+      <module name="getaway" target="1.5" />
       <module name="mybati" target="1.8" />
-      <module name="mybatis" target="1.8" />
+      <module name="mybatis" target="1.5" />
       <module name="mybatis (1) (com.hdo)" target="1.8" />
       <module name="mybatis (1) (com.java)" target="1.8" />
       <module name="mybatis (2) (com.java)" target="1.8" />
@@ -68,42 +68,42 @@
       <module name="mybatis-plus-sample-generator" target="1.8" />
       <module name="mybatisc" target="1.8" />
       <module name="MybatisCommon" target="1.8" />
-      <module name="mybatiscommon" target="1.8" />
+      <module name="mybatiscommon" target="1.5" />
       <module name="MyGraduationProgram" target="1.8" />
-      <module name="order" target="1.8" />
-      <module name="order-client" target="1.8" />
+      <module name="order" target="1.5" />
+      <module name="order-client" target="1.5" />
       <module name="order-client (1)" target="1.8" />
-      <module name="order-common" target="1.8" />
+      <module name="order-common" target="1.5" />
       <module name="order-common (1)" target="1.8" />
-      <module name="order-server" target="1.8" />
+      <module name="order-server" target="1.5" />
       <module name="order1" target="1.8" />
-      <module name="product" target="1.8" />
-      <module name="product-client" target="1.8" />
-      <module name="product-common" target="1.8" />
-      <module name="product-server" target="1.8" />
-      <module name="property" target="1.8" />
-      <module name="server1" target="1.8" />
-      <module name="server2" target="1.8" />
-      <module name="server3" target="1.8" />
-      <module name="SpringBootWeb" target="1.8" />
+      <module name="product" target="1.5" />
+      <module name="product-client" target="1.5" />
+      <module name="product-common" target="1.5" />
+      <module name="product-server" target="1.5" />
+      <module name="property" target="1.5" />
+      <module name="server1" target="1.5" />
+      <module name="server2" target="1.5" />
+      <module name="server3" target="1.5" />
+      <module name="SpringBootWeb" target="1.5" />
       <module name="SpringCloud-Common" target="1.8" />
       <module name="SpringCloud-Config" target="1.8" />
       <module name="SpringCloud-User" target="1.8" />
       <module name="springcloud-user" target="1.8" />
       <module name="SpringCloud-Zipkin" target="1.8" />
-      <module name="user" target="1.8" />
+      <module name="user" target="1.5" />
       <module name="user (1)" target="1.8" />
       <module name="user (1) (com.springcloud.user)" target="1.8" />
-      <module name="user-client" target="1.8" />
-      <module name="user-common" target="1.8" />
-      <module name="user-server" target="1.8" />
-      <module name="web" target="1.8" />
+      <module name="user-client" target="1.5" />
+      <module name="user-common" target="1.5" />
+      <module name="user-server" target="1.5" />
+      <module name="web" target="1.5" />
       <module name="web (1) (com.hdo)" target="1.8" />
-      <module name="web-create" target="1.8" />
-      <module name="web-generator" target="1.8" />
-      <module name="web-mobile" target="1.8" />
-      <module name="web-program" target="1.8" />
-      <module name="zipkin" target="1.8" />
+      <module name="web-create" target="1.5" />
+      <module name="web-generator" target="1.5" />
+      <module name="web-mobile" target="1.5" />
+      <module name="web-program" target="1.5" />
+      <module name="zipkin" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
