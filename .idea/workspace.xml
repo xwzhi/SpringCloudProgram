@@ -1,38 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="60d5e248-780c-46cb-84a8-76d11c387eed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <ignored path="$PROJECT_DIR$/SpringCloud-Demo/SpringCLoud-User/target/" />
-    <ignored path="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Common/target/" />
-    <ignored path="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Product/target/" />
-    <ignored path="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Server/Server3/target/" />
-    <ignored path="$PROJECT_DIR$/SpringBoot-Demo/CreateTable/target/" />
-    <ignored path="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Product/common/target/" />
-    <ignored path="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Order/server/target/" />
-    <ignored path="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Order/common/target/" />
-    <ignored path="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Product/server/target/" />
-    <ignored path="$PROJECT_DIR$/SpringCloud-Demo/SpringConfig-Config/target/" />
-    <ignored path="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Order/client/target/" />
-    <ignored path="$PROJECT_DIR$/SpringCloud-Demo/SpringCLoud-User/client/target/" />
-    <ignored path="$PROJECT_DIR$/SpringBoot-Demo/MybatisCommon/target/" />
-    <ignored path="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Server/Server2/target/" />
-    <ignored path="$PROJECT_DIR$/SpringCloud-Demo/SpringCLoud-User/common/target/" />
-    <ignored path="$PROJECT_DIR$/SpringCloud-Demo/getaway/target/" />
-    <ignored path="$PROJECT_DIR$/MyGraduationProgram/web-create/target/" />
-    <ignored path="$PROJECT_DIR$/SpringBoot-Demo/mybatis/target/" />
-    <ignored path="$PROJECT_DIR$/MyGraduationProgram/target/" />
-    <ignored path="$PROJECT_DIR$/SpringCloud-Demo/SpringCLoud-User/server/target/" />
-    <ignored path="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Server/Server1/target/" />
-    <ignored path="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Order/target/" />
-    <ignored path="$PROJECT_DIR$/MyGraduationProgram/web-program/target/" />
-    <ignored path="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Product/client/target/" />
-    <ignored path="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Zipkin/target/" />
-    <ignored path="$PROJECT_DIR$/MyGraduationProgram/web-mobile/target/" />
-    <ignored path="$PROJECT_DIR$/MyGraduationProgram/web-generator/target/" />
-    <ignored path="$PROJECT_DIR$/SpringBoot-Demo/SpringBootWeb/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="60d5e248-780c-46cb-84a8-76d11c387eed" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,210 +12,6 @@
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/SpringBootWeb/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/MybatisCommon/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/PropertyProgram/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/CreateTable/src/main/java/com/py/property/CreateApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/CreateTable/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/mybatis/src/main/java/com/hdo/mybatis/MybatisApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="861">
-              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/mybatis/src/main/resources/application.1yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/CreateTable/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/mybatis/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/MybatisCommon/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/SpringBootWeb/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyGraduationProgram/web-generator/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/SpringBootWeb/src/main/java/com/hdo/web/WebApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="54" lean-forward="true" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Order/server/src/main/java/com/springcloud/order/service/impl/OrderServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="112" column="37" selection-start-line="112" selection-start-column="37" selection-end-line="112" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/SpringBootWeb/src/main/resources/templates/commons/bar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/SpringBootWeb/src/main/resources/templates/demo/commons/bar.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/SpringBootWeb/src/main/resources/templates/demo/error/4xx.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/SpringBootWeb/src/main/resources/templates/demo/dashboard.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/SpringBootWeb/src/main/resources/templates/demo/login.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/SpringBootWeb/src/main/resources/templates/emp/add.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/SpringBootWeb/src/main/resources/templates/error/4xx.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/SpringBootWeb/src/main/resources/templates/emp/list.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/SpringBootWeb/src/main/resources/templates/list.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/SpringBootWeb/src/main/resources/templates/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/SpringBootWeb/src/main/resources/templates/javascript/demo1.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/SpringBootWeb/src/main/resources/templates/javascript/demo.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-Demo/SpringBootWeb/src/main/resources/templates/error/404.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Order/server/src/main/java/com/springcloud/order/enums/OrderStatusEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Order/server/src/main/java/com/springcloud/order/controller/ClientController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -265,6 +33,12 @@
       </list>
     </option>
   </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="SpringCloudProgram/invalid/JRebel" />
+      <facet id="common/invalid/JRebel" />
+    </ignored-facets>
+  </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
   </component>
@@ -279,6 +53,7 @@
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectId" id="1tZ0464RehobMKQZrP9GE6Ns7RQ" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <showExcludedFiles Scope="true" ProjectPane="true" />
@@ -355,6 +130,13 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -363,7 +145,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553587739971" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringBoot-Demo/SpringBootWeb/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/SpringCloud-Demo/SpringCloud-Zipkin/src/main/main7.iml" />
   </component>
   <component name="RecentsManager">
@@ -381,17 +163,6 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-    <option name="contentProportion" value="0.19751082" />
   </component>
   <component name="RunManager" selected="Spring Boot.Server3Application">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -518,6 +289,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -540,6 +312,7 @@
       <workItem from="1553585841644" duration="1206000" />
       <workItem from="1553587729672" duration="37000" />
       <workItem from="1553587918754" duration="744000" />
+      <workItem from="1622961112432" duration="53000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1550719038637</created>
@@ -562,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553587746789</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="init">
+      <created>1622961132790</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622961132790</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -615,7 +395,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
